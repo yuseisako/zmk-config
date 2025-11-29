@@ -6,7 +6,7 @@
 
 #include <dt-bindings/zmk/matrix_transform.h>
 
-#include <silakka54-key-position.dtsi>
+#include "silakka54-key-position.dtsi"
 
 / {
     chosen {
