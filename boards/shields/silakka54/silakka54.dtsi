@@ -15,7 +15,7 @@
     };
 
     default_transform: keymap_transform_0 {
-        compatible = "zmk,matrix-transform", "zmk,behavior-macro";
+        compatible = "zmk,matrix-transform";
         columns = <12>;
         rows = <5>;
 // | SW6  | SW5  | SW4  | SW3  | SW2  | SW1  |                 | SW1  | SW2  | SW3  | SW4  | SW5  | SW6  |
