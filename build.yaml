@@ -220,10 +220,10 @@ include:
 
   # peripheral_left
   - board: nice_nano_v2
-    shield: silakka54_left_peripheral
+    shield: silakka54_left
     cmake-args: -DCONFIG_ZMK_SLEEP=y -DCONFIG_ZMK_IDLE_TIMEOUT=60000
-    artifact-name: nice_silakka54_left_peripheral
-    
+    artifact-name: nice_silakka54_left
+
   - board: nice_nano_v2
     shield: settings_reset
   ### SILAKKA54 END ###

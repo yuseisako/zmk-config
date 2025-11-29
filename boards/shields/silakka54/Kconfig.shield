@@ -6,6 +6,3 @@ config SHIELD_SILAKKA54_LEFT
 
 config SHIELD_SILAKKA54_RIGHT
     def_bool $(shields_list_contains,silakka54_right)
-
-config SHIELD_SILAKKA54_LEFT_PERIPHERAL
-    def_bool $(shields_list_contains,silakka54_left_peripheral)
