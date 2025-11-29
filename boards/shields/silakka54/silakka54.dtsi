@@ -6,12 +6,12 @@
 
 #include <dt-bindings/zmk/matrix_transform.h>
 
-#include "silakka54-key-position.dtsi"
+#include "silakka54-key-layouts.dtsi"
 
 / {
     chosen {
         zmk,kscan = &kscan0;
-        zmk,physical-layout = &silakka54_layout;
+        zmk,physical-layout = &physical_layout0;
     };
 
     default_transform: keymap_transform_0 {
