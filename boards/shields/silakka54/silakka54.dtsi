@@ -6,17 +6,17 @@
 
 #include <dt-bindings/zmk/matrix_transform.h>
 
-#include <layouts/kata0510/lily58.dtsi>
+#include <silakka54-key-position.dtsi>
 
 / {
     chosen {
         zmk,kscan = &kscan0;
-        zmk,physical-layout = &kata0510_lily58_layout;
+        zmk,physical-layout = &silakka54_layout;
     };
 
     default_transform: keymap_transform_0 {
-        compatible = "zmk,matrix-transform";
-        columns = <16>;
+        compatible = "zmk,matrix-transform", "zmk,behavior-macro";
+        columns = <12>;
         rows = <5>;
 // | SW6  | SW5  | SW4  | SW3  | SW2  | SW1  |                 | SW1  | SW2  | SW3  | SW4  | SW5  | SW6  |
 // | SW12 | SW11 | SW10 | SW9  | SW8  | SW7  |                 | SW7  | SW8  | SW9  | SW10 | SW11 | SW12 |
@@ -46,8 +46,4 @@ RC(3,0) RC(3,1) RC(3,2) RC(3,3) RC(3,4) RC(3,5)                 RC(3,6) RC(3,7) 
             ;
 
     };
-};
-
-&kata0510_lily58_layout {
-    transform = <&default_transform>;
 };
