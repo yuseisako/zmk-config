@@ -9,21 +9,6 @@
 #include "silakka54-key-layouts.dtsi"
 
 / {
-    macros {
-        switch_lang: switch_lang {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings
-                = <&macro_press &kp LSHFT>
-                , <&macro_tap &kp CAPS>
-                , <&macro_release &kp LSHFT>
-                ;
-        };
-    };
-};
-
-
-/ {
     chosen {
         zmk,kscan = &kscan0;
         zmk,physical-layout = &physical_layout0;
