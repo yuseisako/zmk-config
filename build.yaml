@@ -213,13 +213,13 @@ include:
 
   ### SILAKKA54 START ###
   # silakka54
-  - board: nice_nano_v2
+  - board: nice_nano
     shield: silakka54_right
     cmake-args: -DCONFIG_ZMK_SLEEP=y -DCONFIG_ZMK_IDLE_TIMEOUT=60000
     artifact-name: nice_silakka54_right
 
   # peripheral_left
-  - board: nice_nano_v2
+  - board: nice_nano
     shield: silakka54_left
     cmake-args: -DCONFIG_ZMK_SLEEP=y -DCONFIG_ZMK_IDLE_TIMEOUT=60000  -DCONFIG_ZMK_STUDIO=y
     artifact-name: nice_silakka54_left
