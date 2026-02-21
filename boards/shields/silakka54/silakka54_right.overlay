@@ -5,6 +5,7 @@
  */
 
 #include "silakka54.dtsi"
+#include <behaviors/battery_history_request.dtsi>
 
 &default_transform {
     col-offset = <6>;
