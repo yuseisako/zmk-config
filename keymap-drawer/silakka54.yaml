@@ -74,22 +74,23 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '*'
   - '7'
   - '8'
   - '9'
+  - +
+  - BACKSPACE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - /
   - '4'
   - '5'
   - '6'
+  - '-'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -97,19 +98,18 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ':'
   - '1'
   - '2'
   - '3'
-  - {t: ▽, type: trans}
+  - '='
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - '0'
-  - {t: ▽, type: trans}
+  - .
   raise:
   - {t: default, h: toggle}
   - '1'
@@ -124,11 +124,11 @@ layers:
   - '0'
   - {t: raise, h: toggle}
   - Caps Lock
-  - /
-  - '7'
-  - '8'
-  - '9'
-  - +
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - UP ARROW
@@ -136,11 +136,11 @@ layers:
   - )
   - ⌦
   - {t: ▽, type: trans}
-  - '*'
-  - '4'
-  - '5'
-  - '6'
-  - '-'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LEFT ARROW
   - DOWN ARROW
@@ -148,19 +148,19 @@ layers:
   - '['
   - ']'
   - {t: ▽, type: trans}
-  - ':'
-  - '1'
-  - '2'
-  - '3'
-  - '='
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Home
   - Insert
   - End
   - '{'
   - '}'
-  - '0'
-  - $$mdi:backspace-outline$$
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
