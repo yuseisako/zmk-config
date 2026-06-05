@@ -10,8 +10,8 @@ layers:
   - '6'
   - '7'
   - '8'
-  - '9'
-  - '0'
+  - {t: '9', h: (}
+  - {t: '0', h: )}
   - ;
   - ↹
   - Q
@@ -22,8 +22,8 @@ layers:
   - Y
   - U
   - I
-  - O
-  - P
+  - {t: O, h: '['}
+  - {t: P, h: ']'}
   - $$mdi:backspace-outline$$
   - $$mdi:apple-keyboard-control$$
   - A
@@ -34,8 +34,8 @@ layers:
   - H
   - J
   - K
-  - L
-  - '-'
+  - {t: L, h: '{'}
+  - {t: '-', h: '}'}
   - ''''
   - $$mdi:apple-keyboard-shift$$
   - Z
